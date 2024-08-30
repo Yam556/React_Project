@@ -2,6 +2,7 @@ import { useState } from "react";
 import Profile from "./Profile";
 function Profiles(){
     const [selectedProfileName, setSelectedProfileName] = useState('Skillup Labs');
+    
     function selectProfile(name){
         console.log(name);
         setSelectedProfileName(name);
